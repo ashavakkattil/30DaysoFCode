@@ -4,9 +4,11 @@ body {
   background-color: #f4f4f4;
   margin: 0px;
 }
+/* Global Style Starts */
 .container {
   width: 80%;
   margin: auto;
+  overflow: hidden;
 }
 .clr {
   clear: both;
@@ -15,6 +17,8 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+/* Global Style Starts */
+/* Header start */
 header {
   background-color: #35424a;
   color: white;
@@ -52,3 +56,21 @@ header a:hover {
   color: #ccc;
   font-weight: bold;
 }
+/* Header End */
+
+/* Showcase Style Start */
+#showcase {
+  background-image: url("../img/showcase.jpg");
+  min-height: 400px;
+  background-position: 0 -400px;
+  text-align: center;
+  color: white;
+}
+#showcase h1 {
+  font-size: 55px;
+  margin-top: 100px;
+}
+#showcase p {
+  font-size: 20px;
+}
+/* Showcase Style End */
