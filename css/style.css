@@ -158,3 +158,62 @@ footer {
   float: right;
   width: 28%;
 }
+
+/* Services Page Start*/
+#boxes #main .services-title {
+  margin-bottom: 20px;
+}
+#boxes #main .service-section {
+  background-color: #e6e6e6;
+  padding: 25px;
+  margin-bottom: 5px;
+}
+#boxes #main .service-section h3 {
+  margin-top: 10px;
+}
+/* aside#side-bar {
+  padding-right: 30px;
+} */
+aside#side-bar label,
+aside#side-bar button {
+  display: block;
+}
+aside input[type="text"],
+aside input[type="email"],
+aside textarea {
+  width: 95%;
+  padding: 6px;
+}
+
+/* Services Page End*/
+
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  #newsletter h2,
+  #newsletter .my-form,
+  #boxes .sub-box,
+  #boxes #main,
+  #boxes #side-bar {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #boxes #side-bar {
+    width: 95%;
+  }
+  #newsletter .my-form input,
+  #newsletter .my-form button,
+  #side-bar .quote-form button {
+    margin-top: 5px;
+    width: 100%;
+  }
+  aside input[type="text"],
+  aside input[type="email"],
+  aside textarea {
+    width: 95%;
+  }
+  footer {
+    margin-top: 30px;
+  }
+}
