@@ -17,6 +17,14 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+.my-button {
+    background-color: #e8491d;
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 20px;
+    height: 38px;
+    border: none;
+  }
 /* Global Style Starts */
 /* Header start */
 header {
@@ -74,3 +82,26 @@ header a:hover {
   font-size: 20px;
 }
 /* Showcase Style End */
+
+/* Newsletter section Start */
+#newsletter {
+  min-height: 30px;
+  background-color: #35424a;
+  color: white;
+  padding: 15px;
+  text-transform: capitalize;
+}
+#newsletter h2 {
+  float: left;
+}
+#newsletter .my-form {
+  float: right;
+  margin-top: 15px;
+}
+#newsletter .my-form input {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* Newsletter section End */
