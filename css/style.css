@@ -18,13 +18,13 @@ ul {
   padding: 0px;
 }
 .my-button {
-    background-color: #e8491d;
-    color: white;
-    text-transform: capitalize;
-    padding: 0px 20px;
-    height: 38px;
-    border: none;
-  }
+  background-color: #e8491d;
+  color: white;
+  text-transform: capitalize;
+  padding: 0px 20px;
+  height: 38px;
+  border: none;
+}
 /* Global Style Starts */
 /* Header start */
 header {
@@ -105,3 +105,19 @@ header a:hover {
 }
 
 /* Newsletter section End */
+
+/* Boxes section Start */
+#boxes {
+  margin-top: 20px;
+}
+.sub-box {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+}
+.sub-box img {
+  width: 90px;
+}
+/* Boxes section End */
