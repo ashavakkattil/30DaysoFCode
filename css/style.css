@@ -110,6 +110,9 @@ header a:hover {
 #boxes {
   margin-top: 20px;
 }
+#boxes h3 {
+  text-transform: capitalize;
+}
 .sub-box {
   float: left;
   width: 33%;
@@ -129,4 +132,27 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 10px;
+}
+
+/* About Us Page styling */
+
+#boxes #main {
+  float: left;
+  width: 65%;
+  padding-right: 10px;
+}
+#boxes #main h3 {
+  margin: 0px;
+}
+#boxes #main :nth-last-child(1) {
+  background-color: #35424a;
+  padding: 15px;
+  color: white;
+}
+#boxes #side-bar {
+  float: right;
+  width: 28%;
+  background: #35424a;
+  color: white;
+  padding: 15px;
 }
